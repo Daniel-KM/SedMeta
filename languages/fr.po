@@ -267,7 +267,7 @@ msgstr "Toutes les collections"
 
 #: libraries/BulkMetadataEditor/Job/Process.php:25
 msgid "An error occurred in background process."
-msgstr ""
+msgstr "Une erreur s'est produite en tâche de fond"
 
 #: libraries/BulkMetadataEditor/Job/Process.php:26
 #, php-format
@@ -284,12 +284,12 @@ msgstr ""
 
 #: controllers/IndexController.php:54
 msgid "Check logs for success and errors."
-msgstr ""
+msgstr "Vérifier les journaux pour le succès et les erreurs."
 
 #: controllers/IndexController.php:57
 #, php-format
 msgid "Bulk edition cannot be started: %s"
-msgstr ""
+msgstr "Modification par lot ne peut pas être démarré: %s"
 
 #: views/admin/index/index.php:2
 msgid "Bulk Metadata Editor"
