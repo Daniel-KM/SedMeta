@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: BulkMetadataEditor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 15:10+0200\n"
-"PO-Revision-Date: 2020-04-08 11:53+0200\n"
+"PO-Revision-Date: 2020-04-20 00:00+0200\n"
 "Last-Translator: Daniele Binaghi <admin@bitoteko.it>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
 
 #: BulkMetadataEditorPlugin.php:55
 msgid "Please wait"
@@ -29,8 +30,7 @@ msgstr "Titolo"
 msgid "Description"
 msgstr "Descrizione"
 
-#: BulkMetadataEditorPlugin.php:58
-#: views/admin/form-rule-box.php:21
+#: BulkMetadataEditorPlugin.php:58 views/admin/form-rule-box.php:21
 msgid "Item Type"
 msgstr "Tipologia documento"
 
@@ -74,11 +74,8 @@ msgstr "La richiesta d'anteprima del documento sta impiegando troppo tempo!"
 msgid "You must be trying to select a ton of items at once."
 msgstr "Stai probabilmente selezionando troppi documenti in una volta sola."
 
-#: BulkMetadataEditorPlugin.php:69
-#: BulkMetadataEditorPlugin.php:72
-#: BulkMetadataEditorPlugin.php:75
-msgid ""
-"Preview is not possible, but the bulk edition will be done in the background."
+#: BulkMetadataEditorPlugin.php:69 BulkMetadataEditorPlugin.php:72 BulkMetadataEditorPlugin.php:75
+msgid "Preview is not possible, but the bulk edition will be done in the background."
 msgstr "L'anteprima non è possibile, ma la modifica massiva verrà effettuata in background."
 
 #: BulkMetadataEditorPlugin.php:70
@@ -97,15 +94,13 @@ msgstr "La richiesta d'anteprima delle modifiche sta impiegando troppo tempo!"
 msgid "You must be trying to make a ton of changes at once."
 msgstr "Stai probabilmente provando a fare troppe modifiche in una volta sola."
 
-#: BulkMetadataEditorPlugin.php:76
-#: views/helpers/BulkEdit.php:582
+#: BulkMetadataEditorPlugin.php:76 views/helpers/BulkEdit.php:582
 msgid "Please select at least one field."
 msgstr "Seleziona almeno un campo."
 
-#: BulkMetadataEditorPlugin.php:77
-#: views/helpers/BulkEdit.php:557
+#: BulkMetadataEditorPlugin.php:77 views/helpers/BulkEdit.php:557
 msgid "Please select an action to perform."
-msgstr "Seleziona un'azione da effettuare"
+msgstr "Seleziona un'azione da effettuare."
 
 #: BulkMetadataEditorPlugin.php:78
 msgid "No matching items found."
@@ -135,8 +130,7 @@ msgstr "Solo le prime %s modifiche sono mostrate."
 msgid "Show more."
 msgstr "Mostra di più."
 
-#: BulkMetadataEditorPlugin.php:85
-#: libraries/BulkMetadataEditor/Form/Main.php:81
+#: BulkMetadataEditorPlugin.php:85 libraries/BulkMetadataEditor/Form/Main.php:81
 msgid "Preview Selected Items"
 msgstr "Anteprima documenti selezionati"
 
@@ -144,8 +138,7 @@ msgstr "Anteprima documenti selezionati"
 msgid "Hide Items Preview"
 msgstr "Nascondi anteprima documenti"
 
-#: BulkMetadataEditorPlugin.php:87
-#: libraries/BulkMetadataEditor/Form/Main.php:112
+#: BulkMetadataEditorPlugin.php:87 libraries/BulkMetadataEditor/Form/Main.php:112
 msgid "Preview Selected Fields"
 msgstr "Anteprima campi selezionati"
 
@@ -153,8 +146,7 @@ msgstr "Anteprima campi selezionati"
 msgid "Hide Fields Preview"
 msgstr "Nascondi anteprima campi"
 
-#: BulkMetadataEditorPlugin.php:89
-#: libraries/BulkMetadataEditor/Form/Main.php:161
+#: BulkMetadataEditorPlugin.php:89 libraries/BulkMetadataEditor/Form/Main.php:161
 msgid "Preview Changes"
 msgstr "Anteprima modifiche"
 
@@ -183,10 +175,8 @@ msgid "Metadata elements"
 msgstr "Elementi con metadati"
 
 #: libraries/BulkMetadataEditor/Form/Main.php:104
-msgid ""
-"Select the metadata elements you would like to edit; you can select multiple elements"
-msgstr ""
-"Seleziona gli elementi con metadati che vorresti modificare; puoi selezionare più elementi"
+msgid "Select the metadata elements you would like to edit; you can select multiple elements"
+msgstr "Seleziona gli elementi con metadati che vorresti modificare; puoi selezionare più elementi"
 
 #: libraries/BulkMetadataEditor/Form/Main.php:134
 msgid "Edit Type"
@@ -257,10 +247,10 @@ msgid "Type of search"
 msgstr "Tipologia di ricerca"
 
 #: libraries/BulkMetadataEditor/Form/Main.php:204
-msgid "Use regular expressions (always enclose search pattern between delimiters; "
-"visit %s for more info)"
-msgstr "Usa le espressioni regolari (racchiudi sempre il testo da cercare tra "
-"delimitatori; visita %s per maggiori informazioni)"
+msgid "Use regular expressions (always enclose search pattern between delimiters; visit %s for more info)"
+msgstr ""
+"Usa le espressioni regolari (racchiudi sempre il testo da cercare tra delimitatori; visita %s per maggiori "
+"informazioni)"
 
 #: libraries/BulkMetadataEditor/Form/Main.php:207
 msgid "Replace with"
@@ -344,7 +334,7 @@ msgstr "Il separatore usato per dividere i metadati (solitamente ',' o ';' o '|'
 
 #: libraries/BulkMetadataEditor/Form/Main.php:260
 msgid "HTML tags will be stripped before process"
-msgstr "i tag HTML verranno tolti prima dell'esecuzione"
+msgstr "I tag HTML verranno tolti prima dell'esecuzione"
 
 #: libraries/BulkMetadataEditor/Form/Main.php:273
 msgid "Step 1: Select Items"
@@ -390,8 +380,7 @@ msgstr "La modifica massiva di metadati non può iniziare perché nessun tipo di
 msgid "Bulk Metadata edition has been processed."
 msgstr "La modifica Bulk Metadata è stata eseguita."
 
-#: controllers/IndexController.php:73
-#: controllers/IndexController.php:85
+#: controllers/IndexController.php:73 controllers/IndexController.php:85
 msgid "Bulk Metadata edition cannot be started: %s"
 msgstr "Bulk Metadata edition cannot be started: %s"
 
@@ -447,8 +436,7 @@ msgstr "Maiuscole/minuscole"
 msgid "Add Another Rule"
 msgstr "Aggiungi un'altra regola"
 
-#: views/helpers/BulkEdit.php:255
-#: views/helpers/BulkEdit.php:329
+#: views/helpers/BulkEdit.php:255 views/helpers/BulkEdit.php:329
 msgid "Invalid search type given!"
 msgstr "Tipologia di ricerca non valida!"
 
@@ -456,9 +444,7 @@ msgstr "Tipologia di ricerca non valida!"
 msgid "Cannot pull item data from a non-item."
 msgstr "Non si possono recuperare dati documento da un non-documento."
 
-#: views/helpers/BulkEdit.php:361
-#: views/helpers/BulkEdit.php:433
-#: views/helpers/BulkEdit.php:621
+#: views/helpers/BulkEdit.php:361 views/helpers/BulkEdit.php:433 views/helpers/BulkEdit.php:621
 msgid "[untitled]"
 msgstr "[senza titolo]"
 
@@ -482,15 +468,9 @@ msgstr "Si prega di indicare i termini da cercare e da sostituire."
 msgid "Search and replace terms coincide."
 msgstr "I termini da cercare e da sostituire coincidono."
 
-#: views/helpers/BulkEdit.php:663 
-#: views/helpers/BulkEdit.php:697
-#: views/helpers/BulkEdit.php:735 
-#: views/helpers/BulkEdit.php:771
-#: views/helpers/BulkEdit.php:806 
-#: views/helpers/BulkEdit.php:862
-#: views/helpers/BulkEdit.php:915
-#: views/helpers/BulkEdit.php:949
-#: views/helpers/BulkEdit.php:988
+#: views/helpers/BulkEdit.php:663 views/helpers/BulkEdit.php:697 views/helpers/BulkEdit.php:735
+#: views/helpers/BulkEdit.php:771 views/helpers/BulkEdit.php:806 views/helpers/BulkEdit.php:862
+#: views/helpers/BulkEdit.php:915 views/helpers/BulkEdit.php:949 views/helpers/BulkEdit.php:988
 #: views/helpers/BulkEdit.php:1001
 msgid "An error occurred: %s"
 msgstr "Si è verificato un errore: %s"
