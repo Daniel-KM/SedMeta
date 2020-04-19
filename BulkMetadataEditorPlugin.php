@@ -2,9 +2,9 @@
 /**
  * BulkMetadataEditor Bulk Metadata Search and Replace
  *
- * This Omeka 2.1+ plugin is intended to expedite the 
- * process of editing metadata in Omeka collections of 
- * digital objects by providing tools for administrators 
+ * This Omeka 2.1+ plugin is intended to expedite the
+ * process of editing metadata in Omeka collections of
+ * digital objects by providing tools for administrators
  * to edit many items at once based on prespecified rules.
  *
  * @copyright Copyright 2014 UCSC Library Digital Initiatives
@@ -16,7 +16,7 @@
 /**
  * BulkMetadataEditor plugin class.
  *
- * The main class of the BulkMetadataEditor bulk search and replace 
+ * The main class of the BulkMetadataEditor bulk search and replace
  * plugin for Omeka 2.1+
  */
 class BulkMetadataEditorPlugin extends Omeka_Plugin_AbstractPlugin
@@ -33,7 +33,7 @@ class BulkMetadataEditorPlugin extends Omeka_Plugin_AbstractPlugin
 
     public function hookInitialize()
     {
-      add_translation_source(dirname(__FILE__) . '/languages');
+        add_translation_source(dirname(__FILE__) . '/languages');
     }
 
     /**
@@ -121,9 +121,8 @@ class BulkMetadataEditorPlugin extends Omeka_Plugin_AbstractPlugin
             'label' => __('Bulk Editor'),
             'uri' => url('bulk-metadata-editor'),
             'resource' => 'BulkMetadataEditor_Index',
-            'privilege' => 'index'
+            'privilege' => 'index',
         );
         return $nav;
     }
-
 }

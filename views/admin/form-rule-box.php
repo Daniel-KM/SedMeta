@@ -50,7 +50,7 @@ $form_compare_options = array(
                 </div>
                 <div class="inputs three columns" style="margin-bottom: 0">
                     <?php echo $this->formText('bulk-metadata-editor-selector', '',
-                        array('class'=>'bulk-metadata-editor-selector', 'placeholder' => __('Input search term here'))); ?>
+                        array('class' => 'bulk-metadata-editor-selector', 'placeholder' => __('Input search term here'))); ?>
                 </div>
                 <div class="inputs one column" style="margin-bottom: 0">
                     <label for="bulk-metadata-editor-case"><?php echo __('Match Case'); ?></label>

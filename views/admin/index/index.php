@@ -1,5 +1,5 @@
 <?php
-$title =  __('Bulk Metadata Editor');
+$title = __('Bulk Metadata Editor');
 $head = array(
     'title' => $title,
     'bodyclass' => 'primary bulk-metadata-editor',
